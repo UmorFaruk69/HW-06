@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* Header  */
+.header_section{
+    border-bottom: 3px solid #eaeaea;
+}
+.wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header{
+    padding: 15px;
+    overflow: hidden;
+}
+.header_logo{
+    width: 20%;
+    float: left;
+}
+.header_logo img{
+    width: 120px;
+}
+.header_menu{
+    width: 80%;
+    float: left;
+    margin-top: 13px;
+}
+nav ul{
+    overflow: hidden;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #0f2656;
+    font-size: 20px;
+}
+/* Banner */
+.banner_section{
+    padding: 30px 0;
+}
+.my_video{
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+}
+.banner_left, .banner_right{
+    width: 25%;
+    float: left;
+    margin-top: 220px;
+    text-align: center;
+}
+.banner_mid{
+    width: 50%;
+    float: left;
+}
+/* Contact */
+.contact_section{
+    padding: 30px 0;
+}
+.contact{
+    overflow: hidden;
+}
+.contact_form{
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, .06);
+    float: left;
+    width: 40%;
+    margin: 25px;
+}
+.map{
+    width: 50%;
+    float: left;
+    margin: 25px;
+}
+.contact_form label{
+    font-size: 18px;
+    color: #4f4f4f;
+    line-height: 32px;
+}
+.contact_form input{
+    width: 94%;
+    padding: 14px 16px;
+    border-radius: 11px;
+    border: 1px solid #c8c8c8;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
